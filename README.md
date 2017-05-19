@@ -31,8 +31,8 @@ properties:
     origin: "http://adsabs.harvard.edu/abs/2006ApJ...646..505B"
 ```
 
-### Tests
-
-This List repository knows how to validate itself by running the tests in `list_test.rb`. Any modifications to the `Thing` YAML files or the `List` definition in `list.yaml` will be tested by Travis-CI.
+## Data Validation
 
 [![Build Status](https://travis-ci.org/arfon/exoplanet_list.svg?branch=master)](https://travis-ci.org/arfon/exoplanet_list)
+
+This List repository knows how to validate itself by running the tests in `list_test.rb`. Any modifications to the `Thing` YAML files or the `List` definition in `list.yaml` will be tested by Travis-CI.
