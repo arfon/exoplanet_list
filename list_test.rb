@@ -54,7 +54,7 @@ class ListTest < Test::Unit::TestCase
       thing_property_keys = thing_yaml['properties'].collect { |property| property['property_key'] }
 
       required_properties.each do |property|
-        assert thing_property_keys.include?(property['key']), "#{thing_name} is missing required property #{property['key']}"
+        assert thing_property_keys.include?(property['key']), "#{thing_name} is missing required property '#{property['key']}'"
       end
     end
   end
