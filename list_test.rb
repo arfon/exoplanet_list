@@ -29,7 +29,7 @@ class ListTest < Test::Unit::TestCase
     thing_files.each do |file|
       thing_name = File.basename(file)
       thing_yaml = YAML.load_file(file)
-      thing_property_keys = thing_yaml['properties'].collect { |property| property['property_key'] }
+      thing_property_keys = thing_yaml.keys
 
       unassigned_thing_keys = thing_property_keys - property_keys
       assert unassigned_thing_keys.empty?, "#{thing_yaml} has invalid property keys #{unassigned_thing_keys.uniq}"
@@ -51,7 +51,7 @@ class ListTest < Test::Unit::TestCase
     thing_files.each do |file|
       thing_name = File.basename(file)
       thing_yaml = YAML.load_file(file)
-      thing_property_keys = thing_yaml['properties'].collect { |property| property['property_key'] }
+      thing_property_keys = thing_yaml.keys
 
       required_properties.each do |property|
         assert thing_property_keys.include?(property['key']), "#{thing_name} is missing required property '#{property['key']}'"
