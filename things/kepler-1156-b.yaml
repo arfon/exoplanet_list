@@ -1,16 +1,15 @@
-properties:
-  - property_key : "default_name"
-    property_value: "Kepler-1156 b"
-    property_origin: "http://adsabs.harvard.edu/abs/2016ApJ...822...86M"
-  - property_key : "default_star_name"
-    property_value: "Kepler-1156"
-    property_origin: ""
-  - property_key : "orbital_parameters_planet_mass"
-    property_value: "0.0067"
-    property_origin: "http://adsabs.harvard.edu/abs/2016ApJ...822...86M"
-  - property_key : "default_ra"
-    property_value: "286.0166667"
-    property_origin: "http://adsabs.harvard.edu/abs/2016ApJ...822...86M"
-  - property_key : "default_dec"
-    property_value: "50.0958333"
-    property_origin: "http://adsabs.harvard.edu/abs/2016ApJ...822...86M"
+default_name:
+  value: "Kepler-1156 b"
+  origin: "http://adsabs.harvard.edu/abs/2016ApJ...822...86M"
+default_star_name:
+  value: "Kepler-1156"
+  origin: ""
+orbital_parameters_planet_mass:
+  value: "0.0067"
+  origin: "http://adsabs.harvard.edu/abs/2016ApJ...822...86M"
+default_ra:
+  value: "286.0166667"
+  origin: "http://adsabs.harvard.edu/abs/2016ApJ...822...86M"
+default_dec:
+  value: "50.0958333"
+  origin: "http://adsabs.harvard.edu/abs/2016ApJ...822...86M"

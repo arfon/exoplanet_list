@@ -19,16 +19,15 @@ properties:
 `Thing` YAML definitions may only contain properties that are already defined on the parent `List` in `list.yaml`:
 
 ```YAML
-properties:
-  - property_key : "default_name"
-    property_value: "WASP-14 b"
-    origin: "http://arxiv.org/abs/1402.6534"
-  - property_key : "default_star_name"
-    property_value: "WASP-14"
-    origin: ""
-  - property_key : "orbital_parameters_planet_mass"
-    property_value: "7.69"
-    origin: "http://adsabs.harvard.edu/abs/2006ApJ...646..505B"
+default_name:
+  value: "WASP-14 b"
+  origin: "http://arxiv.org/abs/1402.6534"
+default_star_name:
+  value: "WASP-14"
+  origin: ""
+orbital_parameters_planet_mass:
+  value: "7.69"
+  origin: "http://adsabs.harvard.edu/abs/2006ApJ...646..505B"
 ```
 
 ## Data Validation
