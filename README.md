@@ -1,6 +1,6 @@
 # Arfon's Fantastic Exoplanets
 
-This is a test repository for the MAST Lists service. This repository contains a `List` definition, `list.yaml` which defines the properties of the List, together with the available properties for `Things` in the `List`:
+This is a test repository for a test Lists service. This repository contains a `List` definition, `list.yaml` which defines the properties of the List, together with the available properties for `Things` in the `List`:
 
 ```YAML
 name: "Arfon's Fantastic Exoplanets"
